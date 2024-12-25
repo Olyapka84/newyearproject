@@ -49,7 +49,7 @@ def tell_funny_resolution():
 
 def check_ready():
     while True:
-        answer = input("\nНадеюсь, ты готов к празднику? Напиши \"да\", ответ \"нет\" не принимается! ").strip().lower()
+        answer = input("\nНадеюсь, ты готов к празднику? Напиши \"да\", ответ \"нет\" не принимается!\n").strip().lower()
         if answer == "да":
             break
         elif answer == "нет":
@@ -67,6 +67,7 @@ def main():
     display_fireworks()
     new_year_countdown()
     tell_funny_resolution()
+    time.sleep(0.8)
     print("\nА еще желаю отличного года, успешно завершить обучение и найти крутую работу! ❤️")
 
 if __name__ == "__main__":
