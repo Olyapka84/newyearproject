@@ -1,5 +1,0 @@
-.venv
-.idea
-dist/
-**/__pycache__/
-**/.DS_Store/# created by virtualenv automatically
